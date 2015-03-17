@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.video-panel, .filesharing-panel {
+  position: absolute;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  background-color: #efefef;
+}
+
+.video-panel {
+  left: 0px;
+}
+
+.filesharing-panel {
+  right: 0px;
+}
+
+.filesharing-panel input {
+  position: absolute;
+  bottom: 10px;
+}
